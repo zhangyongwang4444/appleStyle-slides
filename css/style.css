@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.window{
+	width: 920px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.images{
+	display: flex;
+	transition: all 0.3s
+}
+.button{
+	width: 920px;
+	height: 30px;
+	margin: 0 auto ;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button li {
+	list-style: none;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-left: 20px;
+	box-shadow: 2px 2px 2px #BDBDBD;
+}
+.button li:hover{
+	background: #D8D8D8;
+	color: #fff;
+}
